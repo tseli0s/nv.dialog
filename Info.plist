@@ -8,11 +8,9 @@
      <key>CFBundleIdentifier</key>
      <string>io.androgr.NvDialog</string>
      <key>CFBundleVersion</key>
-     <string>0.5.0</string>
+     <string>0.6.0</string>
      <key>DocSetFeedName</key>
      <string>Doxygen generated docs</string>
-     <key>DocSetFeedUrl</key>
-     <string>FeedUrl</string>
      <key>DocSetPublisherIdentifier</key>
      <string>io.androgr.NvDialog</string>
      <key>DocSetPublisherName</key>
