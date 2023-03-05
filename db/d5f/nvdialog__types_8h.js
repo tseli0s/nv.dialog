@@ -1,6 +1,7 @@
 var nvdialog__types_8h =
 [
     [ "NvdVersion", "de/d0e/structNvdVersion.html", "de/d0e/structNvdVersion" ],
+    [ "__nvdialog_types_h__", "db/d5f/nvdialog__types_8h.html#aed4bbd9d7b8ad41252449219fce952f3", null ],
     [ "NvdDialogType", "db/d5f/nvdialog__types_8h.html#a88bfb8a80a7d6bd9b01c5f2bcb35752f", [
       [ "NVD_DIALOG_SIMPLE", "db/d5f/nvdialog__types_8h.html#a88bfb8a80a7d6bd9b01c5f2bcb35752fa190467c91c21cdd4eefa31da138e9db3", null ],
       [ "NVD_DIALOG_WARNING", "db/d5f/nvdialog__types_8h.html#a88bfb8a80a7d6bd9b01c5f2bcb35752fa0eacde3f4b357907f43a33f85dadcd26", null ],

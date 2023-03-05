@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">NvDialog<span id="projectnumber">&#160;0.5.0</span>
+   <div id="projectname">NvDialog<span id="projectnumber">&#160;0.6.0</span>
    </div>
    <div id="projectbrief">A cross-platform dialog box library using the system themes.</div>
   </td>
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d1/d9c/nvdialog__error_8h_source.html'
 <a href="../../d1/d9c/nvdialog__error_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *  The MIT License (MIT)</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> *  Copyright (c) 2022 Aggelos Tselios</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> *  Copyright (c) 2023 Aggelos Tselios</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> *  Permission is hereby granted, free of charge, to any person obtaining a copy</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment"> *  of this software and associated documentation files (the &quot;Software&quot;), to</span></div>
@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('d1/d9c/nvdialog__error_8h_source.html'
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment"> * @returns The error code (Will be automatically 0 if no errors were encountered).</span></div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="../../d1/d9c/nvdialog__error_8h.html#a09ee60e27096b0f1d238b744fe884818">   48</a></span>NVD_API <a class="code hl_enumeration" href="../../db/d5f/nvdialog__types_8h.html#a805353a626241d01bb64efbebac7b548">NvdError</a> <a class="code hl_function" href="../../d1/d9c/nvdialog__error_8h.html#a09ee60e27096b0f1d238b744fe884818">nvd_get_error</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><a class="code hl_define" href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a> <a class="code hl_enumeration" href="../../db/d5f/nvdialog__types_8h.html#a805353a626241d01bb64efbebac7b548">NvdError</a> nvd_get_error(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment"></span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment">/**</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment"> * @brief Transforms an error code into a string representation, that can be</span></div>
@@ -150,12 +150,11 @@ $(document).ready(function(){initNavTree('d1/d9c/nvdialog__error_8h_source.html'
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment"> * @note The string returned is saved inside the function as static, and each call</span></div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment"> * simply overwrites it.</span></div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="../../d1/d9c/nvdialog__error_8h.html#aa486e36049b06926ab7107b6ec13b26d">   57</a></span>NVD_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="../../d1/d9c/nvdialog__error_8h.html#aa486e36049b06926ab7107b6ec13b26d">nvd_stringify_error</a>(<a class="code hl_enumeration" href="../../db/d5f/nvdialog__types_8h.html#a805353a626241d01bb64efbebac7b548">NvdError</a> err);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><a class="code hl_define" href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a> <span class="keyword">const</span> <span class="keywordtype">char</span> *nvd_stringify_error(<a class="code hl_enumeration" href="../../db/d5f/nvdialog__types_8h.html#a805353a626241d01bb64efbebac7b548">NvdError</a> err);</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#endif </span><span class="comment">/* __nvdialog_error_h__ */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="anvdialog_8h_html"><div class="ttname"><a href="../../d5/d1a/nvdialog_8h.html">nvdialog.h</a></div></div>
-<div class="ttc" id="anvdialog__error_8h_html_a09ee60e27096b0f1d238b744fe884818"><div class="ttname"><a href="../../d1/d9c/nvdialog__error_8h.html#a09ee60e27096b0f1d238b744fe884818">nvd_get_error</a></div><div class="ttdeci">NVD_API NvdError nvd_get_error(void)</div><div class="ttdoc">Returns the current error code of the library.</div></div>
-<div class="ttc" id="anvdialog__error_8h_html_aa486e36049b06926ab7107b6ec13b26d"><div class="ttname"><a href="../../d1/d9c/nvdialog__error_8h.html#aa486e36049b06926ab7107b6ec13b26d">nvd_stringify_error</a></div><div class="ttdeci">NVD_API const char * nvd_stringify_error(NvdError err)</div><div class="ttdoc">Transforms an error code into a string representation, that can be used to print errors to the consol...</div></div>
+<div class="ttc" id="anvdialog_8h_html_a342ddde9390188e08b80f890137baa72"><div class="ttname"><a href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a></div><div class="ttdeci">#define NVD_API</div><div class="ttdef"><b>Definition:</b> nvdialog.h:108</div></div>
 <div class="ttc" id="anvdialog__types_8h_html_a805353a626241d01bb64efbebac7b548"><div class="ttname"><a href="../../db/d5f/nvdialog__types_8h.html#a805353a626241d01bb64efbebac7b548">NvdError</a></div><div class="ttdeci">NvdError</div><div class="ttdoc">The enumerator containing most errors the library can handle.</div><div class="ttdef"><b>Definition:</b> nvdialog_types.h:53</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

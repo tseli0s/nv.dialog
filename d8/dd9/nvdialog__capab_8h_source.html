@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">NvDialog<span id="projectnumber">&#160;0.5.0</span>
+   <div id="projectname">NvDialog<span id="projectnumber">&#160;0.6.0</span>
    </div>
    <div id="projectbrief">A cross-platform dialog box library using the system themes.</div>
   </td>
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d8/dd9/nvdialog__capab_8h_source.html'
 <a href="../../d8/dd9/nvdialog__capab_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *  The MIT License (MIT)</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> *  Copyright (c) 2022 Aggelos Tselios</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> *  Copyright (c) 2023 Aggelos Tselios</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> *  Permission is hereby granted, free of charge, to any person obtaining a copy</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment"> *  of this software and associated documentation files (the &quot;Software&quot;), to</span></div>
@@ -135,12 +135,12 @@ $(document).ready(function(){initNavTree('d8/dd9/nvdialog__capab_8h_source.html'
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">enum</span> {</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="comment">/* Adwaita backend support */</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d8/dd9/nvdialog__capab_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba47cd2271fe9dbbd0bad0c6d8305802ce">   42</a></span>        <a class="code hl_enumvalue" href="../../d8/dd9/nvdialog__capab_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba47cd2271fe9dbbd0bad0c6d8305802ce">NVD_ADW_BACKEND</a> = 0x20,</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        NVD_ADW_BACKEND = 0x20,</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="comment">/* Built as a static library */</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../d8/dd9/nvdialog__capab_8h.html#a06fc87d81c62e9abb8790b6e5713c55babf99d2358f4cf3ff334e88945aaf71cc">   44</a></span>        <a class="code hl_enumvalue" href="../../d8/dd9/nvdialog__capab_8h.html#a06fc87d81c62e9abb8790b6e5713c55babf99d2358f4cf3ff334e88945aaf71cc">NVD_STATIC_LIB</a>,</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        NVD_STATIC_LIB,</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="comment">/* Older version compatibility */</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <a class="code hl_enumvalue" href="../../d8/dd9/nvdialog__capab_8h.html#a06fc87d81c62e9abb8790b6e5713c55baae23225cfad069ddd8e4c02065bf549a">NVD_COMPAT_MODE</a></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../d8/dd9/nvdialog__capab_8h.html#a06fc87d81c62e9abb8790b6e5713c55baae23225cfad069ddd8e4c02065bf549a">   47</a></span>};</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        NVD_COMPAT_MODE</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>};</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment"></span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">/**</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment"> * @brief Returns the NvDialog&#39;s build time detected capabilities.</span></div>
@@ -150,14 +150,11 @@ $(document).ready(function(){initNavTree('d8/dd9/nvdialog__capab_8h_source.html'
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment"> * @param query Which capabilities to query.</span></div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment"> * @return true if the requested @ref query is supported, else false.</span></div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="../../d8/dd9/nvdialog__capab_8h.html#a4170f5d9293e8d2ca4fd3ee30bbb3a2b">   57</a></span>NVD_API <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d8/dd9/nvdialog__capab_8h.html#a4170f5d9293e8d2ca4fd3ee30bbb3a2b">nvd_get_capabilities</a>(<span class="keywordtype">int</span> query);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><a class="code hl_define" href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a> <span class="keywordtype">bool</span> nvd_get_capabilities(<span class="keywordtype">int</span> query);</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#endif </span><span class="comment">/* __nvdialog_capab_h__ */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="anvdialog_8h_html"><div class="ttname"><a href="../../d5/d1a/nvdialog_8h.html">nvdialog.h</a></div></div>
-<div class="ttc" id="anvdialog__capab_8h_html_a06fc87d81c62e9abb8790b6e5713c55ba47cd2271fe9dbbd0bad0c6d8305802ce"><div class="ttname"><a href="../../d8/dd9/nvdialog__capab_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba47cd2271fe9dbbd0bad0c6d8305802ce">NVD_ADW_BACKEND</a></div><div class="ttdeci">@ NVD_ADW_BACKEND</div><div class="ttdef"><b>Definition:</b> nvdialog_capab.h:42</div></div>
-<div class="ttc" id="anvdialog__capab_8h_html_a06fc87d81c62e9abb8790b6e5713c55baae23225cfad069ddd8e4c02065bf549a"><div class="ttname"><a href="../../d8/dd9/nvdialog__capab_8h.html#a06fc87d81c62e9abb8790b6e5713c55baae23225cfad069ddd8e4c02065bf549a">NVD_COMPAT_MODE</a></div><div class="ttdeci">@ NVD_COMPAT_MODE</div><div class="ttdef"><b>Definition:</b> nvdialog_capab.h:46</div></div>
-<div class="ttc" id="anvdialog__capab_8h_html_a06fc87d81c62e9abb8790b6e5713c55babf99d2358f4cf3ff334e88945aaf71cc"><div class="ttname"><a href="../../d8/dd9/nvdialog__capab_8h.html#a06fc87d81c62e9abb8790b6e5713c55babf99d2358f4cf3ff334e88945aaf71cc">NVD_STATIC_LIB</a></div><div class="ttdeci">@ NVD_STATIC_LIB</div><div class="ttdef"><b>Definition:</b> nvdialog_capab.h:44</div></div>
-<div class="ttc" id="anvdialog__capab_8h_html_a4170f5d9293e8d2ca4fd3ee30bbb3a2b"><div class="ttname"><a href="../../d8/dd9/nvdialog__capab_8h.html#a4170f5d9293e8d2ca4fd3ee30bbb3a2b">nvd_get_capabilities</a></div><div class="ttdeci">NVD_API bool nvd_get_capabilities(int query)</div><div class="ttdoc">Returns the NvDialog's build time detected capabilities.</div></div>
+<div class="ttc" id="anvdialog_8h_html_a342ddde9390188e08b80f890137baa72"><div class="ttname"><a href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a></div><div class="ttdeci">#define NVD_API</div><div class="ttdef"><b>Definition:</b> nvdialog.h:108</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

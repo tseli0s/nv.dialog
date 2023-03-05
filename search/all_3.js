@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['string_0',['string',['../de/d0e/structNvdVersion.html#aed1cfb225a5fb77461e7972691e68a72',1,'NvdVersion']]]
+  ['patch_0',['patch',['../de/d0e/structNvdVersion.html#a8686827c10b8449c81b7bbc1885d041a',1,'NvdVersion']]]
 ];

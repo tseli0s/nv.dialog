@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">NvDialog<span id="projectnumber">&#160;0.5.0</span>
+   <div id="projectname">NvDialog<span id="projectnumber">&#160;0.6.0</span>
    </div>
    <div id="projectbrief">A cross-platform dialog box library using the system themes.</div>
   </td>
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d7/d4a/nvdialog__platform_8h_source.ht
 <a href="../../d7/d4a/nvdialog__platform_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *  The MIT License (MIT)</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> *  Copyright (c) 2022 Aggelos Tselios</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> *  Copyright (c) 2023 Aggelos Tselios</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> *  Permission is hereby granted, free of charge, to any person obtaining a copy</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment"> *  of this software and associated documentation files (the &quot;Software&quot;), to</span></div>
@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('d7/d4a/nvdialog__platform_8h_source.ht
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment"> */</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#ifndef __nvdialog_platform_h__</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define __nvdialog_platform_h__ (1)</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d7/d4a/nvdialog__platform_8h.html#a1bda708efe5606209fd6175fa3bc14f0">   26</a></span><span class="preprocessor">#define __nvdialog_platform_h__ (1)</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#if defined (_WIN32)    || defined (WIN32)</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#if defined (__clang__) || defined(__GNUC__)</span></div>
@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('d7/d4a/nvdialog__platform_8h_source.ht
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define NVD_API_EXPORT __declspec(dllexport)</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#endif </span><span class="comment">/* NVD_API */</span><span class="preprocessor"></span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#else </span><span class="comment">/* _WIN32 */</span><span class="preprocessor"></span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#define NVD_API_EXPORT</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d7/d4a/nvdialog__platform_8h.html#ab79bdf1efd8b58090992cab0575da730">   35</a></span><span class="preprocessor">#define NVD_API_EXPORT</span></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#endif </span><span class="comment">/* _WIN32 */</span><span class="preprocessor"></span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#if defined (_WIN32)    || defined (WIN32)</span></div>
@@ -138,13 +138,13 @@ $(document).ready(function(){initNavTree('d7/d4a/nvdialog__platform_8h_source.ht
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#define NVD_API_IMPORT __declspec(dllimport)</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#endif </span><span class="comment">/* NVD_API */</span><span class="preprocessor"></span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#else </span><span class="comment">/* _WIN32 */</span><span class="preprocessor"></span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#define NVD_API_IMPORT</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../d7/d4a/nvdialog__platform_8h.html#a17931f8e9a7fd271b3f8e4ff65f3a681">   45</a></span><span class="preprocessor">#define NVD_API_IMPORT</span></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif </span><span class="comment">/* _WIN32 */</span><span class="preprocessor"></span></div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#if defined (NVD_EXPORT_SYMBOLS)</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#define NVD_API NVD_API_EXPORT</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#define NVD_API NVD_API_IMPORT</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../d7/d4a/nvdialog__platform_8h.html#a342ddde9390188e08b80f890137baa72">   51</a></span><span class="preprocessor">#define NVD_API NVD_API_IMPORT</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#endif </span><span class="comment">/* DLLEXPORT */</span><span class="preprocessor"></span></div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#endif </span><span class="comment">/* __nvdialog_platform_h__ */</span><span class="preprocessor"></span></div>
