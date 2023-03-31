@@ -10,6 +10,7 @@ var nvdialog__types_8h =
     [ "NvdError", "db/d5f/nvdialog__types_8h.html#a805353a626241d01bb64efbebac7b548", [
       [ "NVD_NO_ERROR", "db/d5f/nvdialog__types_8h.html#a805353a626241d01bb64efbebac7b548af468a6d4020de62c36c05ebc9bf6e445", null ],
       [ "NVD_NO_DISPLAY", "db/d5f/nvdialog__types_8h.html#a805353a626241d01bb64efbebac7b548a11c4a6e7a6dcad7ba97f21c6fe62dc73", null ],
+      [ "NVD_BACKEND_FAILURE", "db/d5f/nvdialog__types_8h.html#a805353a626241d01bb64efbebac7b548aefe48643d0a35274239234947d597151", null ],
       [ "NVD_INVALID_PARAM", "db/d5f/nvdialog__types_8h.html#a805353a626241d01bb64efbebac7b548aa49d9bf7ddb1510434cc294c25e0f605", null ],
       [ "NVD_NOT_INITIALIZED", "db/d5f/nvdialog__types_8h.html#a805353a626241d01bb64efbebac7b548a587a73b059143af765f24c3e7b71632b", null ],
       [ "NVD_BACKEND_INVALID", "db/d5f/nvdialog__types_8h.html#a805353a626241d01bb64efbebac7b548a996ac331f49dbcf476ffa67dd3595eba", null ],

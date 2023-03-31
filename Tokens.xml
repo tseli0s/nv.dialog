@@ -12,6 +12,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>building</Name>
+      <APILanguage>c</APILanguage>
+    </TokenIdentifier>
+    <Path>d2/df6/building.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NvDialog</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
@@ -206,6 +213,16 @@
     <Path>d7/d4a/nvdialog__platform_8h.html</Path>
     <Anchor>a17931f8e9a7fd271b3f8e4ff65f3a681</Anchor>
     <DeclaredIn>nvdialog_platform.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_BACKEND_FAILURE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Anchor>a805353a626241d01bb64efbebac7b548aefe48643d0a35274239234947d597151</Anchor>
+    <DeclaredIn>nvdialog_types.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -605,6 +622,16 @@
     </TokenIdentifier>
     <Path>db/d5f/nvdialog__types_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548a11c4a6e7a6dcad7ba97f21c6fe62dc73</Anchor>
+    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_BACKEND_FAILURE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Anchor>a805353a626241d01bb64efbebac7b548aefe48643d0a35274239234947d597151</Anchor>
     <DeclaredIn>nvdialog_types.h</DeclaredIn>
   </Token>
   <Token>

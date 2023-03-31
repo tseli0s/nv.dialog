@@ -16,33 +16,88 @@
         <Anchor>autotoc_md1</Anchor>
        </Node>
        <Node>
+        <Name>BuildingNvDialog</Name>
+        <Path>d2/df6/building.html</Path>
+      <Subnodes>
+         <Node>
+          <Name>Building NvDialog</Name>
+          <Path>d2/df6/building.html</Path>
+          <Anchor>autotoc_md2</Anchor>
+        <Subnodes>
+           <Node>
+            <Name>Dependencies</Name>
+            <Path>d2/df6/building.html</Path>
+            <Anchor>autotoc_md3</Anchor>
+           </Node>
+           <Node>
+            <Name>1. Downloading the source code.</Name>
+            <Path>d2/df6/building.html</Path>
+            <Anchor>autotoc_md4</Anchor>
+          <Subnodes>
+             <Node>
+              <Name>Git</Name>
+              <Path>d2/df6/building.html</Path>
+              <Anchor>autotoc_md5</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Releases</Name>
+            <Path>d2/df6/building.html</Path>
+            <Anchor>autotoc_md6</Anchor>
+           </Node>
+           <Node>
+            <Name>Specific git branch</Name>
+            <Path>d2/df6/building.html</Path>
+            <Anchor>autotoc_md7</Anchor>
+           </Node>
+           <Node>
+            <Name>2. Building</Name>
+            <Path>d2/df6/building.html</Path>
+            <Anchor>autotoc_md8</Anchor>
+           </Node>
+           <Node>
+            <Name>Older distros</Name>
+            <Path>d2/df6/building.html</Path>
+            <Anchor>autotoc_md9</Anchor>
+           </Node>
+           <Node>
+            <Name>Compile-time features:</Name>
+            <Path>d2/df6/building.html</Path>
+            <Anchor>autotoc_md10</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
         <Name>Tutorial</Name>
         <Path>d9/dc1/NvDialog.html</Path>
       <Subnodes>
          <Node>
           <Name>NvDialog Tutorial</Name>
           <Path>d9/dc1/NvDialog.html</Path>
-          <Anchor>autotoc_md2</Anchor>
+          <Anchor>autotoc_md11</Anchor>
          </Node>
          <Node>
           <Name>1. Creating our environment.</Name>
           <Path>d9/dc1/NvDialog.html</Path>
-          <Anchor>autotoc_md3</Anchor>
+          <Anchor>autotoc_md12</Anchor>
          </Node>
          <Node>
           <Name>2. Creating a basic dialog box.</Name>
           <Path>d9/dc1/NvDialog.html</Path>
-          <Anchor>autotoc_md4</Anchor>
+          <Anchor>autotoc_md13</Anchor>
          </Node>
          <Node>
           <Name>3. Showing the dialog.</Name>
           <Path>d9/dc1/NvDialog.html</Path>
-          <Anchor>autotoc_md5</Anchor>
+          <Anchor>autotoc_md14</Anchor>
          </Node>
          <Node>
           <Name>4. Cleanup and finally compiling.</Name>
           <Path>d9/dc1/NvDialog.html</Path>
-          <Anchor>autotoc_md6</Anchor>
+          <Anchor>autotoc_md15</Anchor>
          </Node>
         </Subnodes>
        </Node>
@@ -280,6 +335,10 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>nvdialog_build.h</Name>
+              <Path>d5/d84/nvdialog__build_8h.html</Path>
+             </Node>
+             <Node>
               <Name>nvdialog_capab.h</Name>
               <Path>d8/dd9/nvdialog__capab_8h.html</Path>
              </Node>
@@ -418,6 +477,11 @@
                   <Name>NVD_NO_DISPLAY</Name>
                   <Path>db/d5f/nvdialog__types_8h.html</Path>
                   <Anchor>a805353a626241d01bb64efbebac7b548a11c4a6e7a6dcad7ba97f21c6fe62dc73</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>NVD_BACKEND_FAILURE</Name>
+                  <Path>db/d5f/nvdialog__types_8h.html</Path>
+                  <Anchor>a805353a626241d01bb64efbebac7b548aefe48643d0a35274239234947d597151</Anchor>
                  </Node>
                  <Node>
                   <Name>NVD_INVALID_PARAM</Name>

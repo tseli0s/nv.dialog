@@ -27,12 +27,25 @@ var NAVTREE =
   [ "NvDialog", "index.html", [
     [ "Examples", "index.html#autotoc_md0", null ],
     [ "Other Resources", "index.html#autotoc_md1", null ],
+    [ "BuildingNvDialog", "d2/df6/building.html", [
+      [ "Building NvDialog", "d2/df6/building.html#autotoc_md2", [
+        [ "Dependencies", "d2/df6/building.html#autotoc_md3", null ],
+        [ "1. Downloading the source code.", "d2/df6/building.html#autotoc_md4", [
+          [ "Git", "d2/df6/building.html#autotoc_md5", null ]
+        ] ],
+        [ "Releases", "d2/df6/building.html#autotoc_md6", null ],
+        [ "Specific git branch", "d2/df6/building.html#autotoc_md7", null ],
+        [ "2. Building", "d2/df6/building.html#autotoc_md8", null ],
+        [ "Older distros", "d2/df6/building.html#autotoc_md9", null ],
+        [ "Compile-time features:", "d2/df6/building.html#autotoc_md10", null ]
+      ] ]
+    ] ],
     [ "Tutorial", "d9/dc1/NvDialog.html", [
-      [ "NvDialog Tutorial", "d9/dc1/NvDialog.html#autotoc_md2", null ],
-      [ "1. Creating our environment.", "d9/dc1/NvDialog.html#autotoc_md3", null ],
-      [ "2. Creating a basic dialog box.", "d9/dc1/NvDialog.html#autotoc_md4", null ],
-      [ "3. Showing the dialog.", "d9/dc1/NvDialog.html#autotoc_md5", null ],
-      [ "4. Cleanup and finally compiling.", "d9/dc1/NvDialog.html#autotoc_md6", null ]
+      [ "NvDialog Tutorial", "d9/dc1/NvDialog.html#autotoc_md11", null ],
+      [ "1. Creating our environment.", "d9/dc1/NvDialog.html#autotoc_md12", null ],
+      [ "2. Creating a basic dialog box.", "d9/dc1/NvDialog.html#autotoc_md13", null ],
+      [ "3. Showing the dialog.", "d9/dc1/NvDialog.html#autotoc_md14", null ],
+      [ "4. Cleanup and finally compiling.", "d9/dc1/NvDialog.html#autotoc_md15", null ]
     ] ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],

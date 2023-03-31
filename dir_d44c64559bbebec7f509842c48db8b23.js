@@ -2,6 +2,7 @@ var dir_d44c64559bbebec7f509842c48db8b23 =
 [
     [ "dialogs", "dir_2c3bdccfb6394a78f2c21b4468960011.html", "dir_2c3bdccfb6394a78f2c21b4468960011" ],
     [ "nvdialog.h", "d5/d1a/nvdialog_8h.html", "d5/d1a/nvdialog_8h" ],
+    [ "nvdialog_build.h", "d5/d84/nvdialog__build_8h.html", null ],
     [ "nvdialog_capab.h", "d8/dd9/nvdialog__capab_8h.html", null ],
     [ "nvdialog_core.h", "dc/dd4/nvdialog__core_8h.html", null ],
     [ "nvdialog_css_manager.h", "d6/de2/nvdialog__css__manager_8h.html", null ],
