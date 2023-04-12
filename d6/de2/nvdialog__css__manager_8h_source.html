@@ -129,73 +129,47 @@ $(document).ready(function(){initNavTree('d6/de2/nvdialog__css__manager_8h_sourc
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#endif </span><span class="comment">/* __nvdialog_h__ */</span><span class="preprocessor"></span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="comment"></span> </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">/**</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment"> * @brief An enumerator to get the CSS provider for the CSS API</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="comment"> * of NvDialog.</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="comment"> * @details The CSS provider (Backend) is the service behind NvDialog&#39;s</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="comment"> * CSS API implementation, almost always tied to the backend available.</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment"> * In order to get the full customization capabilities, you can query</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment"> * which CSS provider is being used by NvDialog, then write provider-specific</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment"> * configuration to allow for customization.</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment"> * @note The CSS backend is not available for the WinAPI.</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        NVD_GTK3_CSS_BACKEND = 0xdd, <span class="comment">/* Gtk3 CSS Backend. */</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        NVD_GTK4_CSS_BACKEND,        <span class="comment">/* Gtk4 / libadwaita CSS Backend. */</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        NVD_NO_CSS_BACKEND           <span class="comment">/* No CSS backend available. */</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>} NvdCSSBackend;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment"></span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment">/**</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment"> * @brief The CSS manager for NvDialog. </span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment"> * @details The CSS manager is responsible for using a custom stylesheet</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment"> * on dialogs, by attaching the stylesheet to the raw handle of the dialog.</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment"> * @note The CSS manager is *NOT* thread-safe. Only use it from the main thread.</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">typedef</span> <span class="keyword">struct </span>_NvdCSSManager NvdCSSManager;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment"></span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment">/**</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment"> * @brief Returns the @ref NvdCSSBackend.</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment"> * @return The CSS backend used as an enumerator.</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><a class="code hl_define" href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a> NvdCSSBackend nvd_get_css_backend(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="comment"></span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="comment">/**</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="comment"> * @brief Returns a new NvdCSSManager.</span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment"> * @details This function is used to instantiate a new NvdCSSManager into</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="comment"> * your application, by returning a pointer to the new instance created by</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="comment"> * this function.</span></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment"> * @note You only need a single instance of the manager. All changes are program-wide,</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="comment"> * and will be reflected in every dialog created.</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="comment"> * @return An empty, initialized @ref NvdCSSManager.</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><a class="code hl_define" href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a> NvdCSSManager* nvd_css_manager_new(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="comment"></span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="comment">/**</span></div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="comment"> * @brief Attaches a CSS stylesheet from the &#39;str&#39; parameter given below.</span></div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="comment"> * @param mgr The manager to attach the stylesheet to.</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="comment"> * @param str A string representation of a stylesheet.</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="comment"> * @note This creates a file and writes &#39;str&#39; to it, then loads the file into</span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="comment"> * the CSS backend. As a result, it may cause your application to halt for a bit.</span></div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="comment"> * Prefer using a file instead.</span></div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="comment"> * @return 0 if succesful, otherwise -1 and sets the error code. See @ref nvd_get_error for details.</span></div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><a class="code hl_define" href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a> <span class="keywordtype">int</span> nvd_css_manager_attach_string_stylesheet(NvdCSSManager *mgr, <span class="keyword">const</span> <span class="keywordtype">char</span> *str);</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="comment"></span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="comment">/**</span></div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="comment"> * @brief Attaches a CSS stylesheet from the specified filename.</span></div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="comment"> * @param mgr The manager to use.</span></div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="comment"> * @param filename The filename of the stylesheet file to parse and attach.</span></div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="comment"> * @return int </span></div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><a class="code hl_define" href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a> <span class="keywordtype">int</span> nvd_css_manager_attach_stylesheet(NvdCSSManager *mgr, <span class="keyword">const</span> <span class="keywordtype">char</span> *filename);</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="comment"></span> </div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="comment">/**</span></div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="comment"> * @brief Uses the stylesheet attached to the manager for the dialog specified.</span></div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="comment"> * @param mgr The manager to use.</span></div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="comment"> * @param raw_handle Returned from an object-specific function as the backend object.</span></div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="comment"> * @return 0 on success, otherwise -1 and sets the error code. See @ref nvd_get_error.</span></div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><a class="code hl_define" href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a> <span class="keywordtype">int</span> nvd_css_manager_use_style(NvdCSSManager *mgr, <span class="keywordtype">void</span> *raw_handle);</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="preprocessor">#endif </span><span class="comment">/* __nvdialog_css_manager_h__ */</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment"> * @deprecated Styling support has been dropped from 0.7.0 onwards.</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="comment"> * This is because it created large cross-platform problems for developers.</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        NVD_GTK3_CSS_BACKEND = 0xdd, <span class="comment">/* Gtk3 CSS Backend. */</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        NVD_GTK4_CSS_BACKEND,        <span class="comment">/* Gtk4 / libadwaita CSS Backend. */</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        NVD_NO_CSS_BACKEND           <span class="comment">/* No CSS backend available. */</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>} NvdCSSBackend;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment"></span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment">/**</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment"> * @deprecated First deprecated in v0.7.0, the CSS styling support</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="comment"> * was dropped. If your application uses it, try limiting it before</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment"> * v0.8.0 is released (Which is when all deprecated code will be removed).</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">typedef</span> <span class="keyword">struct </span>_NvdCSSManager NvdCSSManager;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment"></span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">/**</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment"> * @deprecated Styling support has been dropped, hence this function is invalid.</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><a class="code hl_define" href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a> NvdCSSBackend nvd_get_css_backend(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment"></span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">/**</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment"> * @deprecated CSS support has been deprecated. Avoid using deprecated code.</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><a class="code hl_define" href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a> NvdCSSManager* nvd_css_manager_new(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment"></span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment">/**</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment"> * @deprecated Styling support has been deprecated from v0.7.0 onwards.</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><a class="code hl_define" href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a> <span class="keywordtype">int</span> nvd_css_manager_attach_string_stylesheet(NvdCSSManager *mgr, <span class="keyword">const</span> <span class="keywordtype">char</span> *str);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="comment"></span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">/**</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="comment"> * @deprecated Styling support has been deprecated from v0.7.0 onwards.</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><a class="code hl_define" href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a> <span class="keywordtype">int</span> nvd_css_manager_attach_stylesheet(NvdCSSManager *mgr, <span class="keyword">const</span> <span class="keywordtype">char</span> *filename);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="comment"></span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="comment">/**</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="comment"> * @deprecated Styling support has been deprecated from v0.7.0 onwards.</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><a class="code hl_define" href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a> <span class="keywordtype">int</span> nvd_css_manager_use_style(NvdCSSManager *mgr, <span class="keywordtype">void</span> *raw_handle);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#endif </span><span class="comment">/* __nvdialog_css_manager_h__ */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="anvdialog_8h_html"><div class="ttname"><a href="../../d5/d1a/nvdialog_8h.html">nvdialog.h</a></div></div>
 <div class="ttc" id="anvdialog_8h_html_a342ddde9390188e08b80f890137baa72"><div class="ttname"><a href="../../d5/d1a/nvdialog_8h.html#a342ddde9390188e08b80f890137baa72">NVD_API</a></div><div class="ttdeci">#define NVD_API</div><div class="ttdef"><b>Definition:</b> nvdialog.h:109</div></div>
 </div><!-- fragment --></div><!-- contents -->
