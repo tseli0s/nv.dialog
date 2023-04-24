@@ -496,6 +496,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NVD_THREAD_LOCAL</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d5/d1a/nvdialog_8h.html</Path>
+    <Anchor>a06052f33542f0d1fe7c4b2f68eb3c4f5</Anchor>
+    <DeclaredIn>nvdialog.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NVD_VERSION</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>

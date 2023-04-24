@@ -308,6 +308,11 @@
                 <Anchor>a17931f8e9a7fd271b3f8e4ff65f3a681</Anchor>
                </Node>
                <Node>
+                <Name>NVD_THREAD_LOCAL</Name>
+                <Path>d5/d1a/nvdialog_8h.html</Path>
+                <Anchor>a06052f33542f0d1fe7c4b2f68eb3c4f5</Anchor>
+               </Node>
+               <Node>
                 <Name>NVD_VERSION</Name>
                 <Path>d5/d1a/nvdialog_8h.html</Path>
                 <Anchor>ab6a48cf273f7dc028362b72fba203b8f</Anchor>
