@@ -4,6 +4,7 @@ var nvdialog__dialog__box_8h =
     [ "NvdQuestionBox", "d6/d8a/nvdialog__dialog__box_8h.html#a7612f832611c8d640d1b6d7335aced75", null ],
     [ "nvd_dialog_box_get_raw", "d6/d8a/nvdialog__dialog__box_8h.html#a7b411b8762787e571fdfed34d619912d", null ],
     [ "nvd_dialog_box_new", "d6/d8a/nvdialog__dialog__box_8h.html#af9aa159358ede34fd1f04529a644d2dd", null ],
+    [ "nvd_dialog_box_set_accept_text", "d6/d8a/nvdialog__dialog__box_8h.html#a624c8fd7e6754ab689d198e4c294d35f", null ],
     [ "nvd_dialog_question_get_raw", "d6/d8a/nvdialog__dialog__box_8h.html#a6ccb901a187a6415162e2a6601702afa", null ],
     [ "nvd_dialog_question_new", "d6/d8a/nvdialog__dialog__box_8h.html#a630768e9d269c713ca48826a54b94d05", null ],
     [ "nvd_get_reply", "d6/d8a/nvdialog__dialog__box_8h.html#addee6a60348ea166d2d02b26cccb5036", null ],

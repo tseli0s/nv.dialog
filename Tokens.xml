@@ -256,6 +256,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>nvd_dialog_box_set_accept_text</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d6/d8a/nvdialog__dialog__box_8h.html</Path>
+    <Anchor>a624c8fd7e6754ab689d198e4c294d35f</Anchor>
+    <DeclaredIn>nvdialog_dialog_box.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NVD_DIALOG_ERROR</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>

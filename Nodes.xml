@@ -234,6 +234,11 @@
                   <Anchor>af9aa159358ede34fd1f04529a644d2dd</Anchor>
                  </Node>
                  <Node>
+                  <Name>nvd_dialog_box_set_accept_text</Name>
+                  <Path>d6/d8a/nvdialog__dialog__box_8h.html</Path>
+                  <Anchor>a624c8fd7e6754ab689d198e4c294d35f</Anchor>
+                 </Node>
+                 <Node>
                   <Name>nvd_dialog_question_get_raw</Name>
                   <Path>d6/d8a/nvdialog__dialog__box_8h.html</Path>
                   <Anchor>a6ccb901a187a6415162e2a6601702afa</Anchor>
@@ -350,10 +355,6 @@
              <Node>
               <Name>nvdialog_core.h</Name>
               <Path>dc/dd4/nvdialog__core_8h.html</Path>
-             </Node>
-             <Node>
-              <Name>nvdialog_css_manager.h</Name>
-              <Path>d6/de2/nvdialog__css__manager_8h.html</Path>
              </Node>
              <Node>
               <Name>nvdialog_dialog.h</Name>
