@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['string_0',['string',['../de/d0e/structNvdVersion.html#aed1cfb225a5fb77461e7972691e68a72',1,'NvdVersion']]]
+  ['a_20basic_20dialog_20box_0',['2. Creating a basic dialog box.',['../d9/dc1/NvDialog.html#autotoc_md13',1,'']]],
+  ['and_20finally_20compiling_1',['4. Cleanup and finally compiling.',['../d9/dc1/NvDialog.html#autotoc_md15',1,'']]]
 ];
