@@ -1,5 +1,6 @@
 var nvdialog__notification_8h =
 [
+    [ "__nvdialog_notification_h__", "d3/dc5/nvdialog__notification_8h.html#af154386e8cdbb7344fe26080fe3e465c", null ],
     [ "NvdNotification", "d3/dc5/nvdialog__notification_8h.html#a19c7e70255752913347bb6ce707a5b21", null ],
     [ "NvdNotifyType", "d3/dc5/nvdialog__notification_8h.html#a8e98d5bb8f21a822b567221f8d5011ab", [
       [ "NVD_NOTIFICATION_SIMPLE", "d3/dc5/nvdialog__notification_8h.html#a8e98d5bb8f21a822b567221f8d5011aba09ad2c17c1a3bdfe59a337624a0548d3", null ],

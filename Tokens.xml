@@ -26,6 +26,20 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>deprecated</Name>
+      <APILanguage>unknown</APILanguage>
+    </TokenIdentifier>
+    <Path>da/d58/deprecated.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>index</Name>
+      <APILanguage>unknown</APILanguage>
+    </TokenIdentifier>
+    <Path>index.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>major</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -76,6 +90,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>__nvdialog_capab_h__</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/dd9/nvdialog__capab_8h.html</Path>
+    <Anchor>aeb9709677375bad01a8b9923e062fadc</Anchor>
+    <DeclaredIn>nvdialog_capab.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__nvdialog_core_h__</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/dd4/nvdialog__core_8h.html</Path>
+    <Anchor>a69a9474b1370515e026b7bb3027ae0f7</Anchor>
+    <DeclaredIn>nvdialog_core.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>__nvdialog_dialog_h__</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -86,6 +120,36 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>__nvdialog_error_h__</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
+    <Anchor>a91c633199471e35962c5380fdc232a2d</Anchor>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__nvdialog_image_h__</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d0/d15/nvdialog__image_8h.html</Path>
+    <Anchor>acf0b5f29e4e7949c124c2c9e4c156180</Anchor>
+    <DeclaredIn>nvdialog_image.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__nvdialog_notification_h__</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d3/dc5/nvdialog__notification_8h.html</Path>
+    <Anchor>af154386e8cdbb7344fe26080fe3e465c</Anchor>
+    <DeclaredIn>nvdialog_notification.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>__nvdialog_platform_h__</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -93,6 +157,16 @@
     <Path>d7/d4a/nvdialog__platform_8h.html</Path>
     <Anchor>a1bda708efe5606209fd6175fa3bc14f0</Anchor>
     <DeclaredIn>nvdialog_platform.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__nvdialog_string_h__</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/d10/nvdialog__string_8h.html</Path>
+    <Anchor>ad4f73547f700d46d52dcecb47806752f</Anchor>
+    <DeclaredIn>nvdialog_string.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -146,13 +220,33 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>nvd_add_notification_action</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d3/dc5/nvdialog__notification_8h.html</Path>
+    <Anchor>ade188573d6a5562a3e7bd96fd7468dda</Anchor>
+    <DeclaredIn>nvdialog_notification.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_ADW_BACKEND</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d8/dd9/nvdialog__capab_8h.html</Path>
+    <Anchor>a2c71b1588629357b2b1a43ce050f4385a47cd2271fe9dbbd0bad0c6d8305802ce</Anchor>
+    <DeclaredIn>nvdialog_capab.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NVD_ALREADY_INITIALIZED</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548aa7dc0f1c022a552f005ccf6fe6159d2c</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -213,6 +307,16 @@
     <Path>d7/d4a/nvdialog__platform_8h.html</Path>
     <Anchor>a17931f8e9a7fd271b3f8e4ff65f3a681</Anchor>
     <DeclaredIn>nvdialog_platform.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_append_to_string</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d10/nvdialog__string_8h.html</Path>
+    <Anchor>adb7fa514bd505c78855aada16908ca55</Anchor>
+    <DeclaredIn>nvdialog_string.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -220,9 +324,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548aefe48643d0a35274239234947d597151</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -230,9 +334,79 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548a996ac331f49dbcf476ffa67dd3595eba</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_COMPAT_MODE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d8/dd9/nvdialog__capab_8h.html</Path>
+    <Anchor>a2c71b1588629357b2b1a43ce050f4385aae23225cfad069ddd8e4c02065bf549a</Anchor>
+    <DeclaredIn>nvdialog_capab.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_create_image</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d15/nvdialog__image_8h.html</Path>
+    <Anchor>a35dbcc0d0df58f38be84f7df936b19fe</Anchor>
+    <DeclaredIn>nvdialog_image.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_CSTR</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/d10/nvdialog__string_8h.html</Path>
+    <Anchor>a786b1f6dbd8a21e5da19bc5d1a657ca7</Anchor>
+    <DeclaredIn>nvdialog_string.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_delete_notification</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d3/dc5/nvdialog__notification_8h.html</Path>
+    <Anchor>a3f3672754aa0b35fbbb1940134738bce</Anchor>
+    <DeclaredIn>nvdialog_notification.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_delete_parent</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/dd4/nvdialog__core_8h.html</Path>
+    <Anchor>aa862cac1c3c0fe86dae63822d8512a99</Anchor>
+    <DeclaredIn>nvdialog_core.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_delete_string</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d10/nvdialog__string_8h.html</Path>
+    <Anchor>adf6f499821da019c576bdb9304886ffc</Anchor>
+    <DeclaredIn>nvdialog_string.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_destroy_image</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d15/nvdialog__image_8h.html</Path>
+    <Anchor>ae8621952a65271dca56008a72088cee0</Anchor>
+    <DeclaredIn>nvdialog_image.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -296,6 +470,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>nvd_dialog_set_icon</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d01/nvdialog__about__dialog_8h.html</Path>
+    <Anchor>a721750cfb48a55ace49e12afc5f116b6</Anchor>
+    <DeclaredIn>nvdialog_about_dialog.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NVD_DIALOG_SIMPLE</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -316,13 +500,73 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>nvd_duplicate_string</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d10/nvdialog__string_8h.html</Path>
+    <Anchor>a3c0868f62190965af59f31a469c56fa4</Anchor>
+    <DeclaredIn>nvdialog_string.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NVD_FILE_INACCESSIBLE</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548a4f484dc316e9c1dd84735400e0baba69</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_free_object</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/dd4/nvdialog__core_8h.html</Path>
+    <Anchor>a16b853d296b965746b02433fcf3028c6</Anchor>
+    <DeclaredIn>nvdialog_core.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_get_application_name</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/dd4/nvdialog__core_8h.html</Path>
+    <Anchor>a376981e8e0f301c0a5daf4402417cfba</Anchor>
+    <DeclaredIn>nvdialog_core.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_get_argv</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/dd4/nvdialog__core_8h.html</Path>
+    <Anchor>a0c51954cc3b71bdd2b5be82a28573776</Anchor>
+    <DeclaredIn>nvdialog_core.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_get_capabilities</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dd9/nvdialog__capab_8h.html</Path>
+    <Anchor>a4170f5d9293e8d2ca4fd3ee30bbb3a2b</Anchor>
+    <DeclaredIn>nvdialog_capab.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_get_error</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
+    <Anchor>a09ee60e27096b0f1d238b744fe884818</Anchor>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -331,8 +575,18 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d7/dc4/nvdialog__file__dialog_8h.html</Path>
-    <Anchor>a2ef91c4650c0a17d4bb98a439ca4b775</Anchor>
+    <Anchor>a225009492dd8f4721f937d347f38f90c</Anchor>
     <DeclaredIn>nvdialog_file_dialog.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_get_parent</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/dd4/nvdialog__core_8h.html</Path>
+    <Anchor>a515317d21994d6a1d3556777840769e7</Anchor>
+    <DeclaredIn>nvdialog_core.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -356,13 +610,53 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>nvd_image_from_filename</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d15/nvdialog__image_8h.html</Path>
+    <Anchor>a853ecd1916f2d3a12fcab506914977b5</Anchor>
+    <DeclaredIn>nvdialog_image.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_init</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/dd4/nvdialog__core_8h.html</Path>
+    <Anchor>af0c13e8c27477291d7ed6d44c3939e9e</Anchor>
+    <DeclaredIn>nvdialog_core.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_input_box_get_string</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d6/d3c/nvdialog__input__box_8h.html</Path>
+    <Anchor>a029f944eff316e1bc30b4d03850ac035</Anchor>
+    <DeclaredIn>nvdialog_input_box.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_input_box_new</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d6/d3c/nvdialog__input__box_8h.html</Path>
+    <Anchor>a70a7f10153da43af896c0c4f699638dc</Anchor>
+    <DeclaredIn>nvdialog_input_box.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NVD_INTERNAL_ERROR</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548aba3a2e1378ba4ae9674ae5ec378b6479</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -370,9 +664,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548aa49d9bf7ddb1510434cc294c25e0f605</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -380,9 +674,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548a11c4a6e7a6dcad7ba97f21c6fe62dc73</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -390,9 +684,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548af468a6d4020de62c36c05ebc9bf6e445</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -400,9 +694,49 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548a587a73b059143af765f24c3e7b71632b</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_NOTIFICATION_ERROR</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dc5/nvdialog__notification_8h.html</Path>
+    <Anchor>a8e98d5bb8f21a822b567221f8d5011aba4c8c74f77bb83f2b015b7fc358217ec4</Anchor>
+    <DeclaredIn>nvdialog_notification.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_notification_new</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d3/dc5/nvdialog__notification_8h.html</Path>
+    <Anchor>ac71fd4a81a3b5f9b85e86edaf201f04c</Anchor>
+    <DeclaredIn>nvdialog_notification.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_NOTIFICATION_SIMPLE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dc5/nvdialog__notification_8h.html</Path>
+    <Anchor>a8e98d5bb8f21a822b567221f8d5011aba09ad2c17c1a3bdfe59a337624a0548d3</Anchor>
+    <DeclaredIn>nvdialog_notification.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_NOTIFICATION_WARNING</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dc5/nvdialog__notification_8h.html</Path>
+    <Anchor>a8e98d5bb8f21a822b567221f8d5011abaa62fedc4e76d3f5acec1c63ac84ab780</Anchor>
+    <DeclaredIn>nvdialog_notification.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -426,13 +760,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>nvd_open_folder_dialog_new</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/dc4/nvdialog__file__dialog_8h.html</Path>
+    <Anchor>a86a5277d3efba6c2d7913eac048853e0</Anchor>
+    <DeclaredIn>nvdialog_file_dialog.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NVD_OUT_OF_MEMORY</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548a8ff4a83ac2b31dd52c315a5338d01366</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -476,6 +820,36 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>nvd_send_notification</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d3/dc5/nvdialog__notification_8h.html</Path>
+    <Anchor>af14f77912a51b90575bd2adf807c4597</Anchor>
+    <DeclaredIn>nvdialog_notification.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_set_application_name</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/dd4/nvdialog__core_8h.html</Path>
+    <Anchor>acd043e0d07ff216cba4d206ec6c016e7</Anchor>
+    <DeclaredIn>nvdialog_core.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_set_parent</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/dd4/nvdialog__core_8h.html</Path>
+    <Anchor>ab46cd73d66b2843de2ff901eb9b29cbf</Anchor>
+    <DeclaredIn>nvdialog_core.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>nvd_show_about_dialog</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -496,13 +870,113 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>nvd_show_input_box</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d6/d3c/nvdialog__input__box_8h.html</Path>
+    <Anchor>ae0bae6dd6a08d0554dd645156341047c</Anchor>
+    <DeclaredIn>nvdialog_input_box.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_STATIC_LIB</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d8/dd9/nvdialog__capab_8h.html</Path>
+    <Anchor>a2c71b1588629357b2b1a43ce050f4385abf99d2358f4cf3ff334e88945aaf71cc</Anchor>
+    <DeclaredIn>nvdialog_capab.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_STRING</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/d10/nvdialog__string_8h.html</Path>
+    <Anchor>a7ccd9ced734d1558314e3429108f98de</Anchor>
+    <DeclaredIn>nvdialog_string.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_string_clear</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d10/nvdialog__string_8h.html</Path>
+    <Anchor>a03d62cf8ce67314579dc914ba63906e5</Anchor>
+    <DeclaredIn>nvdialog_string.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NVD_STRING_EMPTY</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548a2b40772f7597798e4b46c2f7c17f07a8</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_string_new</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d10/nvdialog__string_8h.html</Path>
+    <Anchor>a49c7a47f7ac9439492f4167ca7043b71</Anchor>
+    <DeclaredIn>nvdialog_string.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_string_reserve</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d10/nvdialog__string_8h.html</Path>
+    <Anchor>a2eae4457e36946617c4a9bf01f8b21b9</Anchor>
+    <DeclaredIn>nvdialog_string.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_string_set_data</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d10/nvdialog__string_8h.html</Path>
+    <Anchor>a849d8c629a6305317a6e0eb07589f589</Anchor>
+    <DeclaredIn>nvdialog_string.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_string_to_cstr</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d10/nvdialog__string_8h.html</Path>
+    <Anchor>af5fd3d79b154782d00a7c308cd15a700</Anchor>
+    <DeclaredIn>nvdialog_string.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_stringify_error</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
+    <Anchor>af61d66d02bd5b47aa063675c47838e50</Anchor>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nvd_strlen</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d10/nvdialog__string_8h.html</Path>
+    <Anchor>ab047f0fd3b2cc2790a767c156684b772</Anchor>
+    <DeclaredIn>nvdialog_string.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -616,13 +1090,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NvdDynamicString</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>dc/d10/nvdialog__string_8h.html</Path>
+    <Anchor>a0319f0431604f62e0ada60a2054f87e5</Anchor>
+    <DeclaredIn>nvdialog_string.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NvdError</Name>
       <APILanguage>c</APILanguage>
       <Type>enum</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -630,9 +1114,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548af468a6d4020de62c36c05ebc9bf6e445</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -640,9 +1124,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548a11c4a6e7a6dcad7ba97f21c6fe62dc73</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -650,9 +1134,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548aefe48643d0a35274239234947d597151</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -660,9 +1144,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548aa49d9bf7ddb1510434cc294c25e0f605</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -670,9 +1154,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548a587a73b059143af765f24c3e7b71632b</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -680,9 +1164,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548a996ac331f49dbcf476ffa67dd3595eba</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -690,9 +1174,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548a4f484dc316e9c1dd84735400e0baba69</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -700,9 +1184,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548a2b40772f7597798e4b46c2f7c17f07a8</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -710,9 +1194,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548a8ff4a83ac2b31dd52c315a5338d01366</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -720,9 +1204,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548aba3a2e1378ba4ae9674ae5ec378b6479</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -730,9 +1214,9 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>db/d5f/nvdialog__types_8h.html</Path>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548aa7dc0f1c022a552f005ccf6fe6159d2c</Anchor>
-    <DeclaredIn>nvdialog_types.h</DeclaredIn>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -773,6 +1257,86 @@
     <Path>d5/d1a/nvdialog_8h.html</Path>
     <Anchor>a9eb6a38c37a304a320bb73366a570a12</Anchor>
     <DeclaredIn>nvdialog.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NvdImage</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d0/d15/nvdialog__image_8h.html</Path>
+    <Anchor>aa96953aa3eed4407f034a32b28f14a0e</Anchor>
+    <DeclaredIn>nvdialog_image.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NvdInputBox</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d6/d3c/nvdialog__input__box_8h.html</Path>
+    <Anchor>ac15249e9a09ef2da75f4a18ebcad2ede</Anchor>
+    <DeclaredIn>nvdialog_input_box.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NvdNotification</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dc5/nvdialog__notification_8h.html</Path>
+    <Anchor>a19c7e70255752913347bb6ce707a5b21</Anchor>
+    <DeclaredIn>nvdialog_notification.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NvdNotifyType</Name>
+      <APILanguage>c</APILanguage>
+      <Type>enum</Type>
+    </TokenIdentifier>
+    <Path>d3/dc5/nvdialog__notification_8h.html</Path>
+    <Anchor>a8e98d5bb8f21a822b567221f8d5011ab</Anchor>
+    <DeclaredIn>nvdialog_notification.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_NOTIFICATION_SIMPLE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dc5/nvdialog__notification_8h.html</Path>
+    <Anchor>a8e98d5bb8f21a822b567221f8d5011aba09ad2c17c1a3bdfe59a337624a0548d3</Anchor>
+    <DeclaredIn>nvdialog_notification.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_NOTIFICATION_WARNING</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dc5/nvdialog__notification_8h.html</Path>
+    <Anchor>a8e98d5bb8f21a822b567221f8d5011abaa62fedc4e76d3f5acec1c63ac84ab780</Anchor>
+    <DeclaredIn>nvdialog_notification.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_NOTIFICATION_ERROR</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dc5/nvdialog__notification_8h.html</Path>
+    <Anchor>a8e98d5bb8f21a822b567221f8d5011aba4c8c74f77bb83f2b015b7fc358217ec4</Anchor>
+    <DeclaredIn>nvdialog_notification.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NvdParentWindow</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>dc/dd4/nvdialog__core_8h.html</Path>
+    <Anchor>a172636c91444d1f10cb3ddf00cc2e0a8</Anchor>
+    <DeclaredIn>nvdialog_core.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

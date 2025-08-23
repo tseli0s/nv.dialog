@@ -9,8 +9,11 @@ var searchData=
   ['nvdialog_5fdialog_5fbox_2eh_6',['nvdialog_dialog_box.h',['../d6/d8a/nvdialog__dialog__box_8h.html',1,'']]],
   ['nvdialog_5ferror_2eh_7',['nvdialog_error.h',['../d1/d9c/nvdialog__error_8h.html',1,'']]],
   ['nvdialog_5ffile_5fdialog_2eh_8',['nvdialog_file_dialog.h',['../d7/dc4/nvdialog__file__dialog_8h.html',1,'']]],
-  ['nvdialog_5fnotification_2eh_9',['nvdialog_notification.h',['../d3/dc5/nvdialog__notification_8h.html',1,'']]],
-  ['nvdialog_5fplatform_2eh_10',['nvdialog_platform.h',['../d7/d4a/nvdialog__platform_8h.html',1,'']]],
-  ['nvdialog_5ftutorial_2eh_11',['nvdialog_tutorial.h',['../d3/d4e/nvdialog__tutorial_8h.html',1,'']]],
-  ['nvdialog_5ftypes_2eh_12',['nvdialog_types.h',['../db/d5f/nvdialog__types_8h.html',1,'']]]
+  ['nvdialog_5fimage_2eh_9',['nvdialog_image.h',['../d0/d15/nvdialog__image_8h.html',1,'']]],
+  ['nvdialog_5finput_5fbox_2eh_10',['nvdialog_input_box.h',['../d6/d3c/nvdialog__input__box_8h.html',1,'']]],
+  ['nvdialog_5fnotification_2eh_11',['nvdialog_notification.h',['../d3/dc5/nvdialog__notification_8h.html',1,'']]],
+  ['nvdialog_5fplatform_2eh_12',['nvdialog_platform.h',['../d7/d4a/nvdialog__platform_8h.html',1,'']]],
+  ['nvdialog_5fstring_2eh_13',['nvdialog_string.h',['../dc/d10/nvdialog__string_8h.html',1,'']]],
+  ['nvdialog_5ftutorial_2eh_14',['nvdialog_tutorial.h',['../d3/d4e/nvdialog__tutorial_8h.html',1,'']]],
+  ['nvdialog_5ftypes_2eh_15',['nvdialog_types.h',['../db/d5f/nvdialog__types_8h.html',1,'']]]
 ];
