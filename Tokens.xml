@@ -235,7 +235,7 @@
       <Type>econst</Type>
     </TokenIdentifier>
     <Path>d8/dd9/nvdialog__capab_8h.html</Path>
-    <Anchor>a2c71b1588629357b2b1a43ce050f4385a47cd2271fe9dbbd0bad0c6d8305802ce</Anchor>
+    <Anchor>a20f75b7e6d7615399f02808345181334a47cd2271fe9dbbd0bad0c6d8305802ce</Anchor>
     <DeclaredIn>nvdialog_capab.h</DeclaredIn>
   </Token>
   <Token>
@@ -345,7 +345,7 @@
       <Type>econst</Type>
     </TokenIdentifier>
     <Path>d8/dd9/nvdialog__capab_8h.html</Path>
-    <Anchor>a2c71b1588629357b2b1a43ce050f4385aae23225cfad069ddd8e4c02065bf549a</Anchor>
+    <Anchor>a20f75b7e6d7615399f02808345181334aae23225cfad069ddd8e4c02065bf549a</Anchor>
     <DeclaredIn>nvdialog_capab.h</DeclaredIn>
   </Token>
   <Token>
@@ -620,6 +620,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>nvd_image_to_bytes</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d15/nvdialog__image_8h.html</Path>
+    <Anchor>a77bfb81ef93159f95d0ee4cb1aa88121</Anchor>
+    <DeclaredIn>nvdialog_image.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>nvd_init</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -885,7 +895,7 @@
       <Type>econst</Type>
     </TokenIdentifier>
     <Path>d8/dd9/nvdialog__capab_8h.html</Path>
-    <Anchor>a2c71b1588629357b2b1a43ce050f4385abf99d2358f4cf3ff334e88945aaf71cc</Anchor>
+    <Anchor>a20f75b7e6d7615399f02808345181334abf99d2358f4cf3ff334e88945aaf71cc</Anchor>
     <DeclaredIn>nvdialog_capab.h</DeclaredIn>
   </Token>
   <Token>
@@ -990,6 +1000,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NVD_UNSUPPORTED_ACTION</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
+    <Anchor>a805353a626241d01bb64efbebac7b548a8aa04db43bcda92e25dc4b0a7e98bdf5</Anchor>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NVD_VERSION</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -1037,6 +1057,46 @@
     <Path>d0/d01/nvdialog__about__dialog_8h.html</Path>
     <Anchor>af166ab3aa692174a6ba7c62f9b40281e</Anchor>
     <DeclaredIn>nvdialog_about_dialog.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NvdCapability</Name>
+      <APILanguage>c</APILanguage>
+      <Type>enum</Type>
+    </TokenIdentifier>
+    <Path>d8/dd9/nvdialog__capab_8h.html</Path>
+    <Anchor>a20f75b7e6d7615399f02808345181334</Anchor>
+    <DeclaredIn>nvdialog_capab.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_ADW_BACKEND</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d8/dd9/nvdialog__capab_8h.html</Path>
+    <Anchor>a20f75b7e6d7615399f02808345181334a47cd2271fe9dbbd0bad0c6d8305802ce</Anchor>
+    <DeclaredIn>nvdialog_capab.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_STATIC_LIB</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d8/dd9/nvdialog__capab_8h.html</Path>
+    <Anchor>a20f75b7e6d7615399f02808345181334abf99d2358f4cf3ff334e88945aaf71cc</Anchor>
+    <DeclaredIn>nvdialog_capab.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_COMPAT_MODE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d8/dd9/nvdialog__capab_8h.html</Path>
+    <Anchor>a20f75b7e6d7615399f02808345181334aae23225cfad069ddd8e4c02065bf549a</Anchor>
+    <DeclaredIn>nvdialog_capab.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1216,6 +1276,16 @@
     </TokenIdentifier>
     <Path>d1/d9c/nvdialog__error_8h.html</Path>
     <Anchor>a805353a626241d01bb64efbebac7b548aa7dc0f1c022a552f005ccf6fe6159d2c</Anchor>
+    <DeclaredIn>nvdialog_error.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NVD_UNSUPPORTED_ACTION</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9c/nvdialog__error_8h.html</Path>
+    <Anchor>a805353a626241d01bb64efbebac7b548a8aa04db43bcda92e25dc4b0a7e98bdf5</Anchor>
     <DeclaredIn>nvdialog_error.h</DeclaredIn>
   </Token>
   <Token>

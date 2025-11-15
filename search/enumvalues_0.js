@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['nvd_5fadw_5fbackend_0',['NVD_ADW_BACKEND',['../d8/dd9/nvdialog__capab_8h.html#a2c71b1588629357b2b1a43ce050f4385a47cd2271fe9dbbd0bad0c6d8305802ce',1,'nvdialog_capab.h']]],
+  ['nvd_5fadw_5fbackend_0',['NVD_ADW_BACKEND',['../d8/dd9/nvdialog__capab_8h.html#a20f75b7e6d7615399f02808345181334a47cd2271fe9dbbd0bad0c6d8305802ce',1,'nvdialog_capab.h']]],
   ['nvd_5falready_5finitialized_1',['NVD_ALREADY_INITIALIZED',['../d1/d9c/nvdialog__error_8h.html#a805353a626241d01bb64efbebac7b548aa7dc0f1c022a552f005ccf6fe6159d2c',1,'nvdialog_error.h']]],
   ['nvd_5fbackend_5ffailure_2',['NVD_BACKEND_FAILURE',['../d1/d9c/nvdialog__error_8h.html#a805353a626241d01bb64efbebac7b548aefe48643d0a35274239234947d597151',1,'nvdialog_error.h']]],
   ['nvd_5fbackend_5finvalid_3',['NVD_BACKEND_INVALID',['../d1/d9c/nvdialog__error_8h.html#a805353a626241d01bb64efbebac7b548a996ac331f49dbcf476ffa67dd3595eba',1,'nvdialog_error.h']]],
-  ['nvd_5fcompat_5fmode_4',['NVD_COMPAT_MODE',['../d8/dd9/nvdialog__capab_8h.html#a2c71b1588629357b2b1a43ce050f4385aae23225cfad069ddd8e4c02065bf549a',1,'nvdialog_capab.h']]],
+  ['nvd_5fcompat_5fmode_4',['NVD_COMPAT_MODE',['../d8/dd9/nvdialog__capab_8h.html#a20f75b7e6d7615399f02808345181334aae23225cfad069ddd8e4c02065bf549a',1,'nvdialog_capab.h']]],
   ['nvd_5fdialog_5ferror_5',['NVD_DIALOG_ERROR',['../db/d5f/nvdialog__types_8h.html#a88bfb8a80a7d6bd9b01c5f2bcb35752fa0f742a8202e767ce034fa74f4a71b51a',1,'nvdialog_types.h']]],
   ['nvd_5fdialog_5fsimple_6',['NVD_DIALOG_SIMPLE',['../db/d5f/nvdialog__types_8h.html#a88bfb8a80a7d6bd9b01c5f2bcb35752fa190467c91c21cdd4eefa31da138e9db3',1,'nvdialog_types.h']]],
   ['nvd_5fdialog_5fwarning_7',['NVD_DIALOG_WARNING',['../db/d5f/nvdialog__types_8h.html#a88bfb8a80a7d6bd9b01c5f2bcb35752fa0eacde3f4b357907f43a33f85dadcd26',1,'nvdialog_types.h']]],
@@ -21,9 +21,10 @@ var searchData=
   ['nvd_5freply_5fcancel_18',['NVD_REPLY_CANCEL',['../db/d5f/nvdialog__types_8h.html#a08c9c717f5738176f88a21ba966b76a5aacccafa90beadb06f16e2ec3510f135b',1,'nvdialog_types.h']]],
   ['nvd_5freply_5fno_19',['NVD_REPLY_NO',['../db/d5f/nvdialog__types_8h.html#a08c9c717f5738176f88a21ba966b76a5ae283c5c986e3e9014190e9d6d050f1a7',1,'nvdialog_types.h']]],
   ['nvd_5freply_5fok_20',['NVD_REPLY_OK',['../db/d5f/nvdialog__types_8h.html#a08c9c717f5738176f88a21ba966b76a5a693d1e4dd7cc228fa69e5bdf64e8e3ab',1,'nvdialog_types.h']]],
-  ['nvd_5fstatic_5flib_21',['NVD_STATIC_LIB',['../d8/dd9/nvdialog__capab_8h.html#a2c71b1588629357b2b1a43ce050f4385abf99d2358f4cf3ff334e88945aaf71cc',1,'nvdialog_capab.h']]],
+  ['nvd_5fstatic_5flib_21',['NVD_STATIC_LIB',['../d8/dd9/nvdialog__capab_8h.html#a20f75b7e6d7615399f02808345181334abf99d2358f4cf3ff334e88945aaf71cc',1,'nvdialog_capab.h']]],
   ['nvd_5fstring_5fempty_22',['NVD_STRING_EMPTY',['../d1/d9c/nvdialog__error_8h.html#a805353a626241d01bb64efbebac7b548a2b40772f7597798e4b46c2f7c17f07a8',1,'nvdialog_error.h']]],
-  ['nvd_5fyes_5fcancel_23',['NVD_YES_CANCEL',['../db/d5f/nvdialog__types_8h.html#ae86b1883d0bb8f56a1574c5dfab7e633ac9c7fe74cf8a44f40687e8e4f50265c3',1,'nvdialog_types.h']]],
-  ['nvd_5fyes_5fno_24',['NVD_YES_NO',['../db/d5f/nvdialog__types_8h.html#ae86b1883d0bb8f56a1574c5dfab7e633aa45aae7f12142d99910deee2be441d9f',1,'nvdialog_types.h']]],
-  ['nvd_5fyes_5fno_5fcancel_25',['NVD_YES_NO_CANCEL',['../db/d5f/nvdialog__types_8h.html#ae86b1883d0bb8f56a1574c5dfab7e633a9ba1a8783ef204316149eddf0a2c548c',1,'nvdialog_types.h']]]
+  ['nvd_5funsupported_5faction_23',['NVD_UNSUPPORTED_ACTION',['../d1/d9c/nvdialog__error_8h.html#a805353a626241d01bb64efbebac7b548a8aa04db43bcda92e25dc4b0a7e98bdf5',1,'nvdialog_error.h']]],
+  ['nvd_5fyes_5fcancel_24',['NVD_YES_CANCEL',['../db/d5f/nvdialog__types_8h.html#ae86b1883d0bb8f56a1574c5dfab7e633ac9c7fe74cf8a44f40687e8e4f50265c3',1,'nvdialog_types.h']]],
+  ['nvd_5fyes_5fno_25',['NVD_YES_NO',['../db/d5f/nvdialog__types_8h.html#ae86b1883d0bb8f56a1574c5dfab7e633aa45aae7f12142d99910deee2be441d9f',1,'nvdialog_types.h']]],
+  ['nvd_5fyes_5fno_5fcancel_26',['NVD_YES_NO_CANCEL',['../db/d5f/nvdialog__types_8h.html#ae86b1883d0bb8f56a1574c5dfab7e633a9ba1a8783ef204316149eddf0a2c548c',1,'nvdialog_types.h']]]
 ];

@@ -12,7 +12,8 @@ var nvdialog__error_8h =
       [ "NVD_STRING_EMPTY", "d1/d9c/nvdialog__error_8h.html#a805353a626241d01bb64efbebac7b548a2b40772f7597798e4b46c2f7c17f07a8", null ],
       [ "NVD_OUT_OF_MEMORY", "d1/d9c/nvdialog__error_8h.html#a805353a626241d01bb64efbebac7b548a8ff4a83ac2b31dd52c315a5338d01366", null ],
       [ "NVD_INTERNAL_ERROR", "d1/d9c/nvdialog__error_8h.html#a805353a626241d01bb64efbebac7b548aba3a2e1378ba4ae9674ae5ec378b6479", null ],
-      [ "NVD_ALREADY_INITIALIZED", "d1/d9c/nvdialog__error_8h.html#a805353a626241d01bb64efbebac7b548aa7dc0f1c022a552f005ccf6fe6159d2c", null ]
+      [ "NVD_ALREADY_INITIALIZED", "d1/d9c/nvdialog__error_8h.html#a805353a626241d01bb64efbebac7b548aa7dc0f1c022a552f005ccf6fe6159d2c", null ],
+      [ "NVD_UNSUPPORTED_ACTION", "d1/d9c/nvdialog__error_8h.html#a805353a626241d01bb64efbebac7b548a8aa04db43bcda92e25dc4b0a7e98bdf5", null ]
     ] ],
     [ "nvd_get_error", "d1/d9c/nvdialog__error_8h.html#a09ee60e27096b0f1d238b744fe884818", null ],
     [ "nvd_stringify_error", "d1/d9c/nvdialog__error_8h.html#af61d66d02bd5b47aa063675c47838e50", null ]

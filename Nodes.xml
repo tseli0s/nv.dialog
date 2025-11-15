@@ -398,6 +398,28 @@
                 <Anchor>aeb9709677375bad01a8b9923e062fadc</Anchor>
                </Node>
                <Node>
+                <Name>NvdCapability</Name>
+                <Path>d8/dd9/nvdialog__capab_8h.html</Path>
+                <Anchor>a20f75b7e6d7615399f02808345181334</Anchor>
+              <Subnodes>
+                 <Node>
+                  <Name>NVD_ADW_BACKEND</Name>
+                  <Path>d8/dd9/nvdialog__capab_8h.html</Path>
+                  <Anchor>a20f75b7e6d7615399f02808345181334a47cd2271fe9dbbd0bad0c6d8305802ce</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>NVD_STATIC_LIB</Name>
+                  <Path>d8/dd9/nvdialog__capab_8h.html</Path>
+                  <Anchor>a20f75b7e6d7615399f02808345181334abf99d2358f4cf3ff334e88945aaf71cc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>NVD_COMPAT_MODE</Name>
+                  <Path>d8/dd9/nvdialog__capab_8h.html</Path>
+                  <Anchor>a20f75b7e6d7615399f02808345181334aae23225cfad069ddd8e4c02065bf549a</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>nvd_get_capabilities</Name>
                 <Path>d8/dd9/nvdialog__capab_8h.html</Path>
                 <Anchor>a4170f5d9293e8d2ca4fd3ee30bbb3a2b</Anchor>
@@ -540,6 +562,11 @@
                   <Path>d1/d9c/nvdialog__error_8h.html</Path>
                   <Anchor>a805353a626241d01bb64efbebac7b548aa7dc0f1c022a552f005ccf6fe6159d2c</Anchor>
                  </Node>
+                 <Node>
+                  <Name>NVD_UNSUPPORTED_ACTION</Name>
+                  <Path>d1/d9c/nvdialog__error_8h.html</Path>
+                  <Anchor>a805353a626241d01bb64efbebac7b548a8aa04db43bcda92e25dc4b0a7e98bdf5</Anchor>
+                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -582,6 +609,11 @@
                 <Name>nvd_image_from_filename</Name>
                 <Path>d0/d15/nvdialog__image_8h.html</Path>
                 <Anchor>a853ecd1916f2d3a12fcab506914977b5</Anchor>
+               </Node>
+               <Node>
+                <Name>nvd_image_to_bytes</Name>
+                <Path>d0/d15/nvdialog__image_8h.html</Path>
+                <Anchor>a77bfb81ef93159f95d0ee4cb1aa88121</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -887,6 +919,16 @@
             <Path>globals_defs.html</Path>
            </Node>
           </Subnodes>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Examples</Name>
+        <Path>examples.html</Path>
+      <Subnodes>
+         <Node>
+          <Name>/home/acs/Projects/nvdialog/include/dialogs/nvdialog_file_dialog.h</Name>
+          <Path>d3/dc7/_2home_2acs_2Projects_2nvdialog_2include_2dialogs_2nvdialog_file_dialog_8h-example.html</Path>
          </Node>
         </Subnodes>
        </Node>
